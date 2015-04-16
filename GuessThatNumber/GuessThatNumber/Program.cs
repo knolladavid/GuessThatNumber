@@ -145,7 +145,8 @@ namespace GuessThatNumber
             if (userGuess < NumberToGuess)
             {
                 return true;
-            } return false;
+            } 
+            return false;
         }
     }
 }
